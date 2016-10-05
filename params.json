@@ -1,6 +1,6 @@
 {
   "name": "scp-525.GitHub.io",
   "tagline": "前端基础学习",
-  "body": "# 戳进来了，指点一下再走啊!                      ![求授](https://github.com/SCP-525/SCP-525.github.io/blob/master/act_cute.jpg)\r\n## 2016-10-02的练习\r\n### [注册表单](https://github.com/SCP-525/SCP-525.github.io/blob/master/my_practice/Base_form.html)代码节选\r\n`<li>\r\n\t<label>Email contact</label>\r\n\t<input type=\"email\" name=\"email\" id=\"email\" placeholder=\"user@example.com\">\r\n </li>`",
+  "body": "# 戳进来了，指点一下再走啊!         &ensp;&ensp;             ![求授](https://github.com/SCP-525/SCP-525.github.io/blob/master/act_cute.jpg)\r\n## 2016-10-02的练习\r\n### [注册表单](https://github.com/SCP-525/SCP-525.github.io/blob/master/my_practice/Base_form.html)代码节选\r\n`<li>\r\n\t<label>Email contact</label>\r\n\t<input type=\"email\" name=\"email\" id=\"email\" placeholder=\"user@example.com\">\r\n </li>`",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
