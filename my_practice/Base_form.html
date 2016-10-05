@@ -1,0 +1,63 @@
+练习<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		fieldset{
+			width:400px;
+		}
+		fieldset input{
+			display: block;
+		}
+	</style>
+	<script>
+      function change(){ 
+      var num=document.getElementById("priority"); 
+      var location=document.getElementById("show"); 
+      location.value=num.value; 
+  } 
+  </script>
+  
+</head>
+<body style="line-height:3">
+	<form method="post" action="/progjects/1">
+		<fieldset id="personal_information">
+			<legend>Project Information</legend>
+			<ul style="list-style:none">
+				<li>
+					<label for="name">Name</label>
+					<input type="text" name="name" autofocus id="name" placeholder="'John'">
+				</li>
+				
+				<li>
+					<label for="priority">Priority</label>
+					<input type="range" min="0" max="100" name="priority" value="0" id="priority" oninput="change()">
+					<input id="show" type="number"value="0" > 
+				</li>
+				<li>
+					<label for="start_date">Start date</label>
+					<input type="date" name="start_date"id="start_date" value="2016-10-05">
+				</li>
+				<li>
+					<label>Email contact</label>
+					<input type="email" name="email" id="email" placeholder="user@example.com">
+				</li>
+				<li>
+					<label for="URL">Staging URL</label>
+					<input type="url" name="url" id="url" placeholder="http://www.site.com">
+				</li>
+				<li>
+					<label for="project_color">Project color</label>
+					<input type="color" name="project_color" id="project_color" value="#215E21" >
+				</li>
+				&nbsp;
+				<li>
+					<input value="submit" type="submit" width="50px">
+				</li>
+
+			</ul>
+		</fieldset>
+	</form>
+</body>
+</html>
