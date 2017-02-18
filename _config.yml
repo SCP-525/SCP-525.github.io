@@ -1,0 +1,8 @@
+title: scp-525.GitHub.io
+description: 前端基础学习
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
